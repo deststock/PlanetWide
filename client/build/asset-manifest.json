@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c8bd8db.chunk.css",
+    "main.js": "/static/js/main.c87c0e49.chunk.js",
+    "main.js.map": "/static/js/main.c87c0e49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5aaa83e8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5aaa83e8.js.map",
+    "static/js/2.d8d5fe3b.chunk.js": "/static/js/2.d8d5fe3b.chunk.js",
+    "static/js/2.d8d5fe3b.chunk.js.map": "/static/js/2.d8d5fe3b.chunk.js.map",
+    "static/js/3.b0208e43.chunk.js": "/static/js/3.b0208e43.chunk.js",
+    "static/js/3.b0208e43.chunk.js.map": "/static/js/3.b0208e43.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8c8bd8db.chunk.css.map": "/static/css/main.8c8bd8db.chunk.css.map",
+    "static/js/2.d8d5fe3b.chunk.js.LICENSE.txt": "/static/js/2.d8d5fe3b.chunk.js.LICENSE.txt",
+    "static/media/lights_earth.717ecc48.jpg": "/static/media/lights_earth.717ecc48.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5aaa83e8.js",
+    "static/js/2.d8d5fe3b.chunk.js",
+    "static/css/main.8c8bd8db.chunk.css",
+    "static/js/main.c87c0e49.chunk.js"
+  ]
+}

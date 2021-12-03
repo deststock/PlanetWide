@@ -11,7 +11,7 @@ const PlanetInfo = (props) => {
             
             </div>
             <div className="planetPhoto">
-                <img src={thisPlanet.image} alt={thisPlanet.name}></img>
+                <img src={thisPlanet.image} alt={thisPlanet.name} ></img>
             </div>
             <div className="mainInfo">
                 <h1> {thisPlanet.name} </h1>

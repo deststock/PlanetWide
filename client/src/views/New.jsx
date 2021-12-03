@@ -17,7 +17,7 @@ const New = (props) => {
     }
 
     return (
-        <div className="container">
+        <div className="container1">
             <PlanetForm onSubmitProp = { createPlanet } changeSubmitted = {changeSubmitted} />
         </div>
     )

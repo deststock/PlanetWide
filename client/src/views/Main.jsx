@@ -1,22 +1,19 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import MarsBox from '../components/MarsBox'
 import PicOfDay from '../components/PicOfDay'
 import lightsOnEarth from '../static/lights_earth.jpg'
 import News from '../components/News'
 
 const Main = (props) => {
 
-    const { planets,pic,marsPics } = props
+    const { planets,pic } = props
     
-
     return (
         
-        <div className="container" style={{ backgroundImage: `url(${lightsOnEarth})`}}>
+        <div className="container1" style={{ backgroundImage: `url(${lightsOnEarth})`}}>
             <NavBar planets={planets} />
             <div className="mainContent">
                 <div className="leftColumn"> 
-                    <MarsBox marsPics={marsPics}/>
                     <PicOfDay pic={pic}/>
                 </div>
                 <div className="rightColumn">

@@ -11,7 +11,6 @@ function App() {
   const [loaded, setLoaded] = useState(false)
   const [planets, setPlanets] = useState([])
   const [pic, setPic] = useState([])
-  const [marsPics, setMarsPics] = useState([])
 
   const changeSubmitted = () => {
     setSubmitted(!submitted);
@@ -34,20 +33,11 @@ function App() {
             })
     }, [])
 
-    //mars box
-  //   useEffect(() => {
-  //     axios.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=fhaz&api_key=12ka2at4PMYgfbTF1eRab5nhQmHpeLYNaoY4eCSL")
-  //         .then(res => {
-  //             console.log(res.data)
-  //             setMarsPics([res.data])
-  //         })
-  // }, [])
-
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/">
-          {loaded && <Main changeSubmitted={changeSubmitted} submitted={submitted} planets = {planets} pic={pic} marsPics={marsPics}/>}
+          {loaded && <Main changeSubmitted={changeSubmitted} submitted={submitted} planets = {planets} pic={pic}/>}
         </Route>
         <Route exact path="/:id">
           <Details changeSubmitted={changeSubmitted} submitted={submitted} planets = {planets}/>

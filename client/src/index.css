@@ -1,27 +1,27 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
 }
 
-* { 
-  margin: 0px; 
+* {
+  margin: 0px;
   padding: 0px;
   color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /* ----------------------------------------------------------------------------------------------- */
 a {
-  color: white; 
+  color: white;
   text-decoration: none;
 }
 
@@ -29,22 +29,26 @@ a {
   border-radius: 10px;
   width: 100%;
   height: 100%;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-image: linear-gradient(to bottom right, rgba(128, 128, 128, 0.8), rgba(255, 255, 255, 0.6));
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(128, 128, 128, 0.8),
+    rgba(255, 255, 255, 0.6)
+  );
 }
 
 .boxContainer {
   background-image: url("https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
-  background-size: cover; 
-  margin: 30px; 
+  background-size: cover;
+  margin: 30px;
   width: 30vw;
   height: 30vh;
   border-radius: 10px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .box p {
@@ -52,7 +56,7 @@ a {
 }
 
 .card {
-  height: 100px !important; 
+  height: 100px !important;
   width: 80%;
   background-color: white;
   /* background-image: linear-gradient(to bottom right, rgba(254, 252, 252, 0.995), rgba(255, 255, 255, 0.509)); */
@@ -69,25 +73,25 @@ a {
 
 .cardContainer {
   height: 85%;
-  margin: 30px; 
+  margin: 30px;
   border-radius: 20px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   overflow: scroll !important;
 }
 
-.container {
+.container1 {
   background-color: rgb(0, 0, 0);
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }
 
 #closeModal {
-  margin-left: 20px; 
+  margin-left: 20px;
   color: white;
 }
 
@@ -96,25 +100,26 @@ a {
 }
 
 .exp button {
-  margin-top: 20px; ;
+  margin-top: 20px;
 }
 
 .formContainer {
   color: white;
 }
 
-.leftColumn, .rightColumn {
+.leftColumn,
+.rightColumn {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height:100%;
+  height: 100%;
 }
 
 .links {
-  width: 60vw; 
-  display: flex; 
-  align-items: center; 
+  width: 60vw;
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -125,10 +130,10 @@ a {
 }
 
 .mainInfo {
-  height:80vh;
-  width: 50vw;
+  height: 80vh;
+  width: 45vw;
   color: white;
-  display: flex; 
+  display: flex;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -136,18 +141,22 @@ a {
   margin-right: 20px;
 }
 
+.mainInfo p {
+  font-size: 15px;
+}
+
 .message {
   background-color: rgba(28, 27, 27, 0.845);
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
   color: white;
   border-radius: 10px;
-  width: 30vw; 
+  width: 30vw;
 }
 
 .message2 {
   background-color: rgba(28, 27, 27, 0.845);
-  padding: 50px;
+  padding: 20px;
   margin: 20px;
   color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -160,14 +169,13 @@ a {
   display: none;
 }
 
-
 .navBar {
   background-color: rgba(0, 0, 0, 0.351);
   width: 100vw;
   height: 10%;
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .navBar h1 {
@@ -179,7 +187,7 @@ a {
 .newsContainer {
   height: 100%;
   text-align: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .newsContainer h2 {
@@ -187,7 +195,8 @@ a {
   margin-top: 10px;
 }
 
-#openModal, #closeModal {
+#openModal,
+#closeModal {
   cursor: pointer;
 }
 
@@ -196,7 +205,7 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .planetPhoto img {
@@ -209,42 +218,41 @@ a {
 }
 
 .pic img {
-  max-height: 40vh;
-  max-width: 30vw;
-  margin: 10px; 
+  max-height: 60vh;
+  max-width: 50vw;
+  margin: 10px;
   border-radius: 10px;
-  
 }
 
-.picContainer { 
-  padding: 15px;  
-  text-align: center; 
+.picContainer {
+  padding: 15px;
+  text-align: center;
   color: white;
   border-radius: 10px;
 }
 
 .picContainer h2 {
-  margin: 10px; 
+  margin: 10px;
 }
 
 .picContainer button {
   color: white;
-  background-color: rgba(50, 48, 48, 0.461); 
-  border: none; 
+  background-color: rgba(50, 48, 48, 0.461);
+  border: none;
 }
 
 #photoModal {
   display: flex;
   height: 80vh;
   width: 80vw;
-	z-index: 6;
-	border-radius: 5px;
-	top: 100px; 
-	position: fixed;
-	background-color: rgba(0, 0, 0, 0.988);
-	border-radius: 25px;
-	padding: 10px;
-	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.5);
+  z-index: 6;
+  border-radius: 5px;
+  top: 100px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.988);
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.5);
 }
 
 #photoModalDetails {
@@ -258,4 +266,4 @@ a {
   max-width: 50%;
 }
 
-
+/* ----------------------------------------------------------------------------------------------- */

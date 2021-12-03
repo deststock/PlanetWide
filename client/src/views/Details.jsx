@@ -18,10 +18,10 @@ const Details = (props) => {
             setLoaded(true)
             changeSubmitted()
         })
-    }, [id])
+    }, [changeSubmitted])
     
     return (
-        <div className="container">
+        <div className="container1">
             <NavBar planets={planets}/>
             <div className="mainContent">
                 {loaded && <PlanetInfo thisPlanet={thisPlanet} />}

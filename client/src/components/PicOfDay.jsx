@@ -12,7 +12,7 @@ const PicOfDay = (props) => {
     return (
         <div className="picContainer">
             <div className="pic">
-                <img src={pic.hdurl} alt="pic of the day"></img>
+                <img src={pic.hdurl} alt="Picture of the day"></img>
             </div>
             <h3> Astrology Photo of the Day </h3>
             <button id="openModal" onClick={togglePopup}> Click here to view details...</button>

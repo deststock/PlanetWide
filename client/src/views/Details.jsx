@@ -14,8 +14,7 @@ const Details = (props) => {
     useEffect(() => {
         axios.get('http://localhost:8000/api/planet/' + id)
         .then( res => {
-            setThisPlanet(res.data)
-            setLoaded(true)
+            setThisPlanet(res.data) 
             changeSubmitted()
         })
     }, [changeSubmitted])
@@ -24,7 +23,7 @@ const Details = (props) => {
         <div className="container1">
             <NavBar planets={planets}/>
             <div className="mainContent">
-                {loaded && <PlanetInfo thisPlanet={thisPlanet} />}
+                <PlanetInfo thisPlanet={thisPlanet} />
             </div>
 
         </div>

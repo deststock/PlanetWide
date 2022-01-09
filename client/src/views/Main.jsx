@@ -9,7 +9,6 @@ const Main = (props) => {
     const { planets,pic } = props
     
     return (
-        
         <div className="container1" style={{ backgroundImage: `url(${lightsOnEarth})`}}>
             <NavBar planets={planets} />
             <div className="mainContent">

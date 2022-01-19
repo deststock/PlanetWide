@@ -31,6 +31,7 @@ function App() {
             .then(res => {
                 setPic(res.data)
             })
+            .catch(err => console.error(err))
     }, [])
 
   return (
